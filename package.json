@@ -4,16 +4,19 @@
     "description": "following along https://www.youtube.com/watch?v=pkg0J6lpKT4&list=PL_c9BZzLwBRKWfmG3DTZ49tDV6Mn7GEQ2 tutorial",
     "main": "src/app.js",
     "scripts": {
-        "start": "npx nodemon main"
+        "start": "npx nodemon main",
+        "watch": "tsc -p tsconfig.json --watch"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "@types/express": "^4.17.17",
         "cors": "^2.8.5",
         "dotenv": "^16.3.1",
         "express": "^4.18.2",
         "mongoose": "^7.3.4",
         "nodemon": "^3.0.1",
+        "typescript": "^5.1.6",
         "uuid": "^9.0.0"
     }
 }
